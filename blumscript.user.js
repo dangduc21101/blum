@@ -57,7 +57,7 @@ try {
     }
 
     function processFlower(element) {
-        const delay = Math.random() * (1000 - 500) + 500;
+        const delay = Math.random() * (600 - 300) + 300;
         setTimeout(() => {
             const shouldSkip = Math.random() < (GAME_SETTINGS.flowerSkipPercentage / 100);
               if (shouldSkip) {
