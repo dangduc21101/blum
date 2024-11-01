@@ -15,8 +15,8 @@ let GAME_SETTINGS = {
 	minBombHits: Math.floor(Math.random() * 2),
 	minIceHits: 0,
 	flowerSkipPercentage: Math.floor(Math.random() * 6) + 5,
-	minDelayMs: 2000,
-    maxDelayMs: 5000,
+	minDelayMs: 1000,
+    	maxDelayMs: 3000,
 	autoClickPlay: false,
 	dogsProbability: (98 + Math.random()) / 100
 };
