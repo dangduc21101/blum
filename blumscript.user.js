@@ -73,9 +73,9 @@ try {
 	}
 
 	function processBomb(item) {
-		gameStats.score = 0;
-		clickElement(item);
-		gameStats.bombHits++;
+		// gameStats.score = 0;
+		// clickElement(item);
+		// gameStats.bombHits++;
 	}
 
 	function processIce(item) {
