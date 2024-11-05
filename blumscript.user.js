@@ -59,6 +59,14 @@ try {
 			case "DOGS":
 				processDogs(item);
 				break;
+      case "HARRIS":
+				processDogs(item);
+				break;
+      case "TRUMP":
+				processDogs(item);
+				break;
+      default:
+        console.log("Unknown assetType:", assetType);
 		}
 	}
 
