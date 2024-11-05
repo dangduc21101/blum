@@ -59,16 +59,16 @@ try {
 			case "DOGS":
 				processDogs(item);
 				break;
-      case "HARRIS":
+      			case "HARRIS":
 				processDogs(item);
 				break;
-      case "TRUMP":
+      			case "TRUMP":
 				processDogs(item);
 				break;
-      default:
-        console.log("Unknown assetType:", assetType);
-		}
-	}
+      			default:
+			        console.log("Unknown assetType:", assetType);
+					}
+				}
 
 	function processFlower(item) {
 		const shouldSkip = Math.random() < (GAME_SETTINGS.flowerSkipPercentage / 100);
