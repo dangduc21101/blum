@@ -554,7 +554,6 @@ try {
 	}
 
 	loadSettings();
-	updateSettingsMenu();
 
 	function toggleGamePause() {
 		isGamePaused = !isGamePaused;
